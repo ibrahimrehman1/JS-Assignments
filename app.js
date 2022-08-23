@@ -1,201 +1,220 @@
-// //ASSIGNMENT # 1
+/* 
 
-// //Problem # 1
-// alert("Welcome to my Website");
+ASSIGNMENT # 1
 
-// //Problem # 2
-// alert("Error! Please Enter a Valid Password");
+*/
 
-// //Problem # 3
-// alert("Welcome to JS Land\nHappy Coding!");
+// Problem # 1
+alert("Welcome to my Website");
 
-// //Problem # 4
-// alert("Welcome to JS Land...");
-// alert("Happy Coding!");
+// Problem # 2
+alert("Error! Please Enter a Valid Password");
+
+// Problem # 3
+alert("Welcome to JS Land\nHappy Coding!");
+
+// Problem # 4
+alert("Welcome to JS Land...");
+alert("Happy Coding!");
 
 
-// //Problem # 5
-// console.log(alert("Hello... I can run JS through my browser's console"));
-
-
-
-// //ASSIGNMENT # 2
-
-// //Problem # 1
-// let username;
-
-// //Problem # 2
-// let myName = "Ibrahim Rehman";
-
-// //Problem # 3
-// let message = "Hello World";
-// alert(message);
-
-// //Problem # 4
-
-// let fullName = "Ibrahim Rehman";
-// let age = 18;
-// let universityName = "NED University of Information and Technology";
-// alert(fullName);
-// alert(age);
-// alert(universityName);
-
-// //Problem # 5
-// let patterns = "PIZZA\nPIZZ\nPIZ\nPI\nP";
-// alert(patterns);
-
-// //Problem # 6
-// let email = "ibrahimrehman0346@gmail.com";
-// alert("My email address is " + email);
-
-// //Problem # 7
-// let book = "A Smarter way to Learn Javascript";
-// alert("I am trying to learn from the Book:" + book);
-
-// //Problem # 8
-// document.write("Yah! I can write HTML Content through Javascript");
-
-// //Problem # 9
-// let pattern = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
-// alert(pattern);
+// Problem # 5
+alert("Hello... I can run JS through my browser's console");
 
 
 
-// //ASSIGNMENT # 3
+/* 
 
-// //Problem # 1
-// let age = 18;
-// alert("I am " + age + " years old!");
+ASSIGNMENT # 2
 
-// //Problem # 2
-// let counts = 18;
-// alert("You have visited this site " + counts + " times");
+*/
 
-// //Problem # 3
-// let birthYear = 2001;
-// document.write("My Birth Year is " + birthYear + "<br>Data Type of my declared letiable is number");
+// Problem # 1
+let username;
 
-// //Problem # 4
-// let visitorName = "John Doe";
-// let productTitle = "T-shirt(s)";
-// let quantity = 5;
-// document.write("<br>", visitorName, " ordered " + quantity + " " + productTitle, " on XYZ clothing store")
+// Problem # 2
+let myName = "Ibrahim Rehman";
+
+// Problem # 3
+let message = "Hello World";
+alert(message);
+
+// Problem # 4
+let fullName = "Ibrahim Rehman";
+let age = 18;
+let universityName = "NED University of Information and Technology";
+alert(fullName);
+alert(age);
+alert(universityName);
+
+// Problem # 5
+let patterns = "PIZZA\nPIZZ\nPIZ\nPI\nP";
+alert(patterns);
+
+// Problem # 6
+let email = "ibrahimrehman0346@gmail.com";
+alert(`My email address is ${email}`);
+
+// Problem # 7
+let book = "A Smarter way to Learn Javascript";
+alert(`I am trying to learn from the Book: ${book}`);
+
+// Problem # 8
+document.write("Yah! I can write HTML Content through Javascript");
+
+// Problem # 9
+let pattern = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
+alert(pattern);
 
 
-// //ASSIGNMENT # 4
 
-// //Problem # 1
-// let x, y, z;
+/* 
 
-// //Problem # 2
-// let x_1;
+ASSIGNMENT # 3
+
+*/
+
+// Problem # 1
+alert(`I am ${age} years old!`);
+
+// Problem # 2
+let timesVisited = 18;
+alert(`You have visited this site ${timesVisited} times`);
+
+// Problem # 3
+let birthYear = 2001;
+document.write(`My Birth Year is ${birthYear}<br>Data Type of my declared letiable is number`);
+
+// Problem # 4
+let visitorName = "John Doe";
+let productTitle = "T-shirt(s)";
+let quantity = 5;
+document.write(`<br> ${visitorName} ordered ${quantity} ${productTitle} on XYZ clothing store`);
+
+
+/* 
+
+ASSIGNMENT # 4
+
+*/
+
+// Problem # 1
+let x, y, z;
+
+// Problem # 2
+let x_1;
 // let 1;
-// let %alert;
-// let ^alert;
-// let (alert);
-// let names;
-// let counter;
+let %alert;
+let ^alert;
+let (alert);
+let names;
+let counter;
 // let {[naming]};
-// let pokemon;
-// let games;
+let pokemon;
+let games;
 
-// //Problem # 3
-// document.write("<h1>Rules for Naming JS letiables: </h1>letiable names can only contain , numbers, $ and _. For example $my_1stletiable<br>letiables must begin with a letter, $, or _   For example $name, _name or name<br>letiable names are case-sensitive.<br>letiable names should not be JS Keywords.")
-
-
-
-// //ASSIGNMENT # 5
+// Problem # 3
+document.write(`<h1>Rules for Naming JS variables: </h1>variable names can only contain , numbers, $ and _. 
+For example $my_1stletiable<br>variables must begin with a letter, $, or _   
+For example $name, _name or name<br>variables names are case-sensitive.<br>letiable names should not be JS Keywords.`)
 
 
-// //Problem # 1
-// let num_1 = 10;
-// let num_2 = 20;
-// let sum_1 = num_1 + num_2;
-// document.write("Sum of " + num_1 + " and " + num_2 + " is " + sum_1);
 
-// //Problem # 2
-// let sum_2 = num_1 - num_2;
-// document.write("<br>Subtraction of " + num_1 + " and " + num_2 + " is " + sum_2);
+/* 
 
-// let sum_3 = num_1 * num_2;
-// document.write("<br>Multiplication of " + num_1 + " and " + num_2 + " is " + sum_3);
+ASSIGNMENT # 5
 
-// let sum_4 = num_1 / num_2;
-// document.write("<br>Division of " + num_1 + " and " + num_2 + " is " + sum_4);
+*/
 
-// //Problem # 3
-// let value;
-// document.write("<br>Value after letiable declaration is " + value);
-// value = 10;
-// document.write("<br>Initial Value: " + value);
-// document.write("<br>Value after Increment is: " + ++value);
-// value += 7;
-// document.write("<br>Value after Addition is: " + value);
-// document.write("<br>Value after decrement is: " + --value);
-// let remain = value % 3;
-// document.write("<br>The remainder is: " + remain);
+// Problem # 1
+let num_1 = 10;
+let num_2 = 20;
+let sum_1 = num_1 + num_2;
+document.write("Sum of " + num_1 + " and " + num_2 + " is " + sum_1);
+
+// Problem # 2
+let sum_2 = num_1 - num_2;
+document.write("<br>Subtraction of " + num_1 + " and " + num_2 + " is " + sum_2);
+
+let sum_3 = num_1 * num_2;
+document.write("<br>Multiplication of " + num_1 + " and " + num_2 + " is " + sum_3);
+
+let sum_4 = num_1 / num_2;
+document.write("<br>Division of " + num_1 + " and " + num_2 + " is " + sum_4);
+
+// Problem # 3
+let value;
+document.write("<br>Value after letiable declaration is " + value);
+value = 10;
+document.write("<br>Initial Value: " + value);
+document.write("<br>Value after Increment is: " + ++value);
+value += 7;
+document.write("<br>Value after Addition is: " + value);
+document.write("<br>Value after decrement is: " + --value);
+let remain = value % 3;
+document.write("<br>The remainder is: " + remain);
 
 
-// //Problem # 4
-// let ticketPrice = 600;
-// let result = ticketPrice * 5;
-// document.write("<br>Total cost to buy 5 Tickets to a movie is " + result + " PKR");
+//Problem # 4
+let ticketPrice = 600;
+let result = ticketPrice * 5;
+document.write("<br>Total cost to buy 5 Tickets to a movie is " + result + " PKR");
 
-// //Problem # 5
-// let num = 10;
-// document.write(`<br>${num} * 1 = ${num * 1}<br>${num} * 2 = ${num * 2}<br>${num} * 3 = ${num * 3}<br>${num} * 4 = ${num * 4}<br>${num} * 5 = ${num * 5}<br>${num} * 6 = ${num * 6}<br>${num} * 7 = ${num * 7}<br>${num} * 8 = ${num * 8}<br>${num} * 9 = ${num * 9}<br>${num} * 10 = ${num * 10}<br>`)
+//Problem # 5
+let num = 10;
+document.write(`<br>${num} * 1 = ${num * 1}<br>${num} * 2 = ${num * 2}<br>${num} * 3 = ${num * 3}<br>${num} * 4 = ${num * 4}<br>${num} * 5 = ${num * 5}<br>${num} * 6 = ${num * 6}<br>${num} * 7 = ${num * 7}<br>${num} * 8 = ${num * 8}<br>${num} * 9 = ${num * 9}<br>${num} * 10 = ${num * 10}<br>`)
 
-// //Problem # 6
-// let celsius = 45;
-// let fahrenheit = 100;
-// let convert_1 = (celsius * (9/5)) + 32;
-// let convert_2 = (fahrenheit - 32) * (5/9);
-// document.write(`<br>${celsius}<sup>o</sup>C is ${convert_1}<sup>o</sup>F<br>${fahrenheit}<sup>o</sup>F is ${Math.round(convert_2)}<sup>o</sup>C`);
+//Problem # 6
+let celsius = 45;
+let fahrenheit = 100;
+let convert_1 = (celsius * (9/5)) + 32;
+let convert_2 = (fahrenheit - 32) * (5/9);
+document.write(`<br>${celsius}<sup>o</sup>C is ${convert_1}<sup>o</sup>F<br>${fahrenheit}<sup>o</sup>F is ${Math.round(convert_2)}<sup>o</sup>C`);
 
-// //Problem # 7
-// let item_1 = 5000;
-// let item_2 = 50000;
-// let quan_1 = 5;
-// let quan_2 = 1;
-// let shipping = 200;
-// let result_1 = (item_1 * quan_1) + (item_2 * quan_2) + shipping;
-// document.write(`<br>Price of Item 1 is ${item_1}<br>Price of Item 2 is ${item_2}<br>Quantity of Item 1 is ${quan_1}<br>Quantity of Item 2 is ${quan_2}<br>Shipping Charges are ${shipping}<br><br>Total cost of your order is ${result_1}`);
+//Problem # 7
+let item_1 = 5000;
+let item_2 = 50000;
+let quan_1 = 5;
+let quan_2 = 1;
+let shipping = 200;
+let result_1 = (item_1 * quan_1) + (item_2 * quan_2) + shipping;
+document.write(`<br>Price of Item 1 is ${item_1}<br>Price of Item 2 is ${item_2}<br>Quantity of Item 1 is ${quan_1}<br>Quantity of Item 2 is ${quan_2}<br>Shipping Charges are ${shipping}<br><br>Total cost of your order is ${result_1}`);
 
-// //Problem # 8
-// let total = 850;
-// let obtained = 750;
-// var percent = (750 * 100) / 850;
-// document.write(`<br>Total Marks: ${total}<br>Marks Obtained: ${obtained}<br>Percentage: ${Math.round(percent)}`);
+//Problem # 8
+let total = 850;
+let obtained = 750;
+var percent = (750 * 100) / 850;
+document.write(`<br>Total Marks: ${total}<br>Marks Obtained: ${obtained}<br>Percentage: ${Math.round(percent)}`);
 
-// //Problem # 9
-// let us = 10;
-// let riyal = 25;
-// let conversion = (us * 104.80) + (riyal * 28);
-// document.write(`<br>Total Currency in PKR: ${conversion}`);
+//Problem # 9
+let us = 10;
+let riyal = 25;
+let conversion = (us * 104.80) + (riyal * 28);
+document.write(`<br>Total Currency in PKR: ${conversion}`);
 
-// //Problem # 10
-// let calculation = 10;
-// let result_5 = ((calculation + 5) * 10) / 2;
+//Problem # 10
+let calculation = 10;
+let result_5 = ((calculation + 5) * 10) / 2;
 
-// //Problem # 11
-// let current_year = 2020;
-// let birth_year = 2001;
-// let result_6 = current_year - birth_year;
-// document.write(`<br>Current Year: ${current_year}<br>Birth Year: ${birth_year}<br>Your Age is either ${result_6 - 1} or ${result_6}`);
+//Problem # 11
+let current_year = 2020;
+let birth_year = 2001;
+let result_6 = current_year - birth_year;
+document.write(`<br>Current Year: ${current_year}<br>Birth Year: ${birth_year}<br>Your Age is either ${result_6 - 1} or ${result_6}`);
 
-// //Problem # 12
-// let radii = 50;
-// let circum = 2 * 3.142 * radii;
-// let area = 3.142 * radii ** 2;
-// document.write(`<br>Radius of Circle is ${radii}<br>The Circumference is ${circum}<br>The Area is ${area}`);
+//Problem # 12
+let radii = 50;
+let circum = 2 * 3.142 * radii;
+let area = 3.142 * radii ** 2;
+document.write(`<br>Radius of Circle is ${radii}<br>The Circumference is ${circum}<br>The Area is ${area}`);
 
-// //Problem # 13
-// let snack = "Chips";
-// let current_age = 18;
-// let max_age = 80;
-// let amount = 5;
-// let result_7 = (max_age - current_age) * 365.25 * 5;
-// document.write(`<br>Favourite Snack: ${snack}<br>Current Age: ${current_age}<br>Estimated Maximum Age: ${max_age}<br>Amount of Snacks Per Day: ${amount}<br>You will need ${Math.round(result_7)} ${snack} to last you until the ripe old age of ${max_age}`);
+//Problem # 13
+let snack = "Chips";
+let current_age = 18;
+let max_age = 80;
+let amount = 5;
+let result_7 = (max_age - current_age) * 365.25 * 5;
+document.write(`<br>Favourite Snack: ${snack}<br>Current Age: ${current_age}<br>Estimated Maximum Age: ${max_age}<br>Amount of Snacks Per Day: ${amount}<br>You will need ${Math.round(result_7)} ${snack} to last you until the ripe old age of ${max_age}`);
 
 
 
