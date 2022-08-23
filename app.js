@@ -214,241 +214,249 @@ document.write(`<br>Favourite Snack: ${snack}<br>Current Age: ${current_age}<br>
 
 
 
-// //ASSIGNMENT # 6-9
+/* 
 
-// //Problem # 1
-// let a = 20;
-// document.write(`<br>Result: <br>The value of a is ${a}<br>-----------------------<br><br>The value of ++a is ${++a}<br>Now the value of a is ${a}<br><br>The value of a++ is ${a++}<br>Now the value of a is ${a}<br><br>The value of --a is ${--a}<br>Now the value of a is ${a}<br><br>The value of a-- is ${a--}<br>Now the value of a is ${a}`);
+ASSIGNMENT # 6-8
 
-// //Problem # 2
-// var c = 2;
-// var d = 1;
-// var result_8 = --c - --d + ++d + d--;
-// document.write(`<br>c is 2<br>d is 1<br>Result is ${result_8}`)
-// //--c:  decrements c by one and then returns 1
-// //--c - --d: --d decrement d by one and return 0, thus 1 - 0 and result is 1
-// //--c - --d + ++d: ++d increments  d by one and returns one thus 1 - 0 + 1 and result is 2
-// //--c - --d + ++b-1 + d--: d-- return d i.e. 1 and then decrements d by one, thus 1 - 0 + 1 + 1 and result is 3
+*/
 
-// //Problem # 3
-// let input = prompt("What is Your Name? ");
-// if (input){
-//     alert(`Welcome! ${input}`);
-// }
-// else{
-//     alert("Welcome! Unknown Visitor")
-// }
+// Problem # 1
+let a = 20;
+document.write(`<br>Result: <br>The value of a is ${a}<br>-----------------------<br><br>The value of ++a is ${++a}<br>Now the value of a is ${a}<br><br>The value of a++ is ${a++}<br>Now the value of a is ${a}<br><br>The value of --a is ${--a}<br>Now the value of a is ${a}<br><br>The value of a-- is ${a--}<br>Now the value of a is ${a}`);
 
-// //Problem # 5
-// let table = +prompt("Input a number to print its table:(Default is 5) ");
-// if (table){
-//     document.write(`<br>${table} * 1 = ${table * 1}<br>${table} * 2 = ${table * 2}<br>${table} * 3 = ${table * 3}<br>${table} * 4 = ${table * 4}<br>${table} * 5 = ${table * 5}<br>${table} * 6 = ${table * 6}<br>${table} * 7 = ${table * 7}<br>${table} * 8 = ${table * 8}<br>${table} * 9 = ${table * 9}<br>${table} * 10 = ${table * 10}<br>`);
-// }
-// else{
-//     document.write(`<br>${5} * 1 = ${5 * 1}<br>${5} * 2 = ${5 * 2}<br>${5} * 3 = ${5 * 3}<br>${5} * 4 = ${5 * 4}<br>${5} * 5 = ${5 * 5}<br>${5} * 6 = ${5 * 6}<br>${5} * 7 = ${5 * 7}<br>${5} * 8 = ${5 * 8}<br>${5} * 9 = ${5 * 9}<br>${5} * 10 = ${5 * 10}<br>`);
-//}
+// Problem # 2
+var c = 2;
+var d = 1;
+var result_8 = --c - --d + ++d + d--;
+document.write(`<br>c is 2<br>d is 1<br>Result is ${result_8}`)
+//--c:  decrements c by one and then returns 1
+//--c - --d: --d decrement d by one and return 0, thus 1 - 0 and result is 1
+//--c - --d + ++d: ++d increments  d by one and returns one thus 1 - 0 + 1 and result is 2
+//--c - --d + ++b-1 + d--: d-- return d i.e. 1 and then decrements d by one, thus 1 - 0 + 1 + 1 and result is 3
 
-// //Problem # 6
-// let sub_1 = prompt("Enter First Subject: ") || "Physics";
-// let sub_2 = prompt("Enter Second Subject: ") || "Mathematics";
-// let sub_3 = prompt("Enter Third Subject: ") || "English";
-// //For Capitalizing:
-//     let alt_1 = sub_1[0];
-//     capitalize_1 = alt_1.toUpperCase();
-//     sub_1 = sub_1.replace(alt_1, capitalize_1);
-//     let alt_2 = sub_2[0];
-//     capitalize_2 = alt_2.toUpperCase();
-//     sub_2 = sub_2.replace(alt_2, capitalize_2);
-//     let alt_3 = sub_3[0];
-//     capitalize_3 = alt_3.toUpperCase();
-//     sub_3 = sub_3.replace(alt_3, capitalize_3);
+// Problem # 3
+let name = prompt("What is Your Name? ");
+if (name){
+    alert(`Welcome! ${name}`);
+}
+else{
+    alert("Welcome! Unknown Visitor")
+}
 
+// Problem # 5
+let table = +prompt("Input a number to print its table: (Default is 5) ");
+if (table){
+    document.write(`<br>${table} * 1 = ${table * 1}<br>${table} * 2 = ${table * 2}<br>${table} * 3 = ${table * 3}<br>${table} * 4 = ${table * 4}<br>${table} * 5 = ${table * 5}<br>${table} * 6 = ${table * 6}<br>${table} * 7 = ${table * 7}<br>${table} * 8 = ${table * 8}<br>${table} * 9 = ${table * 9}<br>${table} * 10 = ${table * 10}<br>`);
+}
+else{
+    document.write(`<br>${5} * 1 = ${5 * 1}<br>${5} * 2 = ${5 * 2}<br>${5} * 3 = ${5 * 3}<br>${5} * 4 = ${5 * 4}<br>${5} * 5 = ${5 * 5}<br>${5} * 6 = ${5 * 6}<br>${5} * 7 = ${5 * 7}<br>${5} * 8 = ${5 * 8}<br>${5} * 9 = ${5 * 9}<br>${5} * 10 = ${5 * 10}<br>`);
+}
 
-// let total_marks = 100;
-// let mark_1 = +prompt(`Enter ${sub_1} Marks: `);
-// let mark_2 = +prompt(`Enter ${sub_2} Marks: `);
-// let mark_3 = +prompt(`Enter ${sub_3} Marks: `);
-// let per_1 = Math.round((mark_1 * 100) / total_marks);
-// let per_2 = Math.round((mark_2 * 100) / total_marks);
-// let per_3 = Math.round((mark_3 * 100) / total_marks);
-// document.write(`<table style="text-align: center;" border="3">
-// <thead>
-//     <tr>
-//         <th>Subject</th>
-//         <th>Total Marks</th>
-//         <th>Obtained Marks</th>
-//         <th>Percentage(%)</th>
-//     </tr>
-// </thead>
-// <tbody>
-//     <tr>
-//         <td>${sub_1}</td>
-//         <td>${total_marks}</td>
-//         <td>${mark_1}</td>
-//         <td>${per_1}%</td>
-//     </tr>
-//     <tr>
-//         <td>${sub_2}</td>
-//         <td>${total_marks}</td>
-//         <td>${mark_2}</td>
-//         <td>${per_2}%</td>
-//     </tr>
-//     <tr>
-//         <td>${sub_3}</td>
-//         <td>${total_marks}</td>
-//         <td>${mark_3}</td>
-//         <td>${per_3}%</td>
-//     </tr>
-//     <tr>
-//         <td style="font-weight: bold;">Overall</td>
-//         <td>${total_marks * 3}</td>
-//         <td>${mark_1 + mark_2 + mark_3}</td>
-//         <td>${(per_1 + per_2 + per_3) / 3}%</td>
-//     </tr>
-// </tbody></table>`);
+// Problem # 6
+let subject_1 = prompt("Enter First Subject: ") || "Physics";
+let subject_2 = prompt("Enter Second Subject: ") || "Mathematics";
+let subject_3 = prompt("Enter Third Subject: ") || "English";
 
-//ASSIGNMENT # 9-10
-
-// //Problem # 1
-// let city_name = prompt("Enter a city name: ");
-// if (city_name === "Karachi" || city_name === "karachi"){
-//     alert("Welcome to the city of lights!");
-// }
-// else{
-//     alert("Welcome to " + city_name);
-// }
-
-// //Problem # 2
-// let gender = prompt("Enter your Gender: ");
-// if (gender === "male" || gender === "Male"){
-//     alert("Good Morning Sir!");
-// }
-// else if (gender === "female" || gender === "Female"){
-//     alert("Good Morning Maam!");
-// }
-
-// //Problem # 3
-// let color = prompt("Enter color of road traffic signal: ");
-// if (color === "red" || color === "Red"){
-//     alert("Must Stop");
-// }
-// else if (color === "green" || color === "Green"){
-//     alert("Move Now");
-// }
-
-// else if (color === "yellow" || color === "Yellow"){
-//     alert("Ready to Move");
-// }
-
-// //Problem # 4
-// let fuel = +prompt("Enter Current fuel in car (Litres): ");
-// if (fuel < 0.25){
-//     alert("Please Refill the fuel in your car!");
-// }
-
-//Problem # 5
-// a is working, b is not working, c is working and two alerts are triggered, d is working, e is working and one alert is triggered, f is working.
-
-// //Problem # 6
-// let marks_1 = +prompt("Enter marks of First Subject: ");
-// let marks_2 = +prompt("Enter marks of Second Subject: ");
-// let marks_3 = +prompt("Enter marks of Third Subject: ");
-// let total_marks_1 = +prompt("Enter Total Marks: ");
-// let totals = Math.round(((marks_1 + marks_2 + marks_3) * 100 )/ total_marks_1);
-// let grades;
-// let remarks;
-// if (totals >= 80){
-//     grades = "A-One";
-//     remarks = "Excellent";
-// }
-
-// else if (totals >= 70){
-//     grades = "A";
-//     remarks = "Good";
-// }
-
-// else if (totals >= 60){
-//     grades = "B";
-//     remarks = "You need to improve";
-// }
-
-// else{
-//     grades = "Fail";
-//     remarks = 'Sorry';
-// }
-
-// document.write(`<br><h1>Marksheet</h1>Total Marks: ${total_marks_1}<br>Marks Obtained: ${marks_1 + marks_2 + marks_3}<br>Percentage: ${totals}%<br>Grade: ${grades}<br>Remarks: ${remarks}`);
+//For Capitalizing:
+let alt_1 = subject_1[0];
+capitalize_1 = alt_1.toUpperCase();
+subject_1 = subject_1.replace(alt_1, capitalize_1);
+let alt_2 = subject_2[0];
+capitalize_2 = alt_2.toUpperCase();
+subject_2 = subject_2.replace(alt_2, capitalize_2);
+let alt_3 = subject_3[0];
+capitalize_3 = alt_3.toUpperCase();
+subject_3 = subject_3.replace(alt_3, capitalize_3);
 
 
-// //Problem # 7
-// let secret = 8;
-// while (true){
-//     let guess = +prompt("Guess the Secret No: ");
-//     if (guess === secret){
-//         alert("Bingo! Correct Answer");
-//         break;
-//     }
-//     else if (guess === secret + 1){
-//         alert("Close enough to the correct answer!");
-//     }
-// }
-
-// //Problem # 8
-// let divisible = +prompt("Enter a number which is divisible by 3: ");
-// if (divisible % 3 === 0){
-//     alert(`${divisible} is divisible by 3`);
-// }
-// else{
-//     alert(`${divisible} is not divisible by 3`);
-// }
-
-// //Problem # 9
-// let even_odd = +prompt("Enter an Even number or an Odd number: ");
-// if (even_odd % 2 === 0){
-//     alert(`${even_odd} is an even number!`);
-// }
-// else{
-//     alert(`${even_odd} is an odd number`);
-// }
-
-// //Problem # 10
-// let temp = +prompt("Enter Current Temperature: ");
-// if (temp > 40){
-//     alert("It is too hot outside.");
-// }
-
-// else if (temp > 30){
-//     alert("The Weather today is Normal.");
-// }
-
-// else if (temp > 20){
-//     alert("Today’s Weather is cool.");
-// }
-
-// else if (temp > 10){
-//     alert("“OMG! Today’s weather is so Cool.");
-// }
+let total_marks = 100;
+let mark_1 = +prompt(`Enter ${subject_1} Marks: `);
+let mark_2 = +prompt(`Enter ${subject_2} Marks: `);
+let mark_3 = +prompt(`Enter ${subject_3} Marks: `);
+let percent_1 = Math.round((mark_1 * 100) / total_marks);
+let percent_2 = Math.round((mark_2 * 100) / total_marks);
+let percent_3 = Math.round((mark_3 * 100) / total_marks);
+document.write(`<table style="text-align: center;" border="3">
+<thead>
+    <tr>
+        <th>Subject</th>
+        <th>Total Marks</th>
+        <th>Obtained Marks</th>
+        <th>Percentage(%)</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>${subject_1}</td>
+        <td>${total_marks}</td>
+        <td>${mark_1}</td>
+        <td>${percent_1}%</td>
+    </tr>
+    <tr>
+        <td>${subject_2}</td>
+        <td>${total_marks}</td>
+        <td>${mark_2}</td>
+        <td>${percent_2}%</td>
+    </tr>
+    <tr>
+        <td>${subject_3}</td>
+        <td>${total_marks}</td>
+        <td>${mark_3}</td>
+        <td>${percent_3}%</td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold;">Overall</td>
+        <td>${total_marks * 3}</td>
+        <td>${mark_1 + mark_2 + mark_3}</td>
+        <td>${(percent_1 + percent_2 + percent_3) / 3}%</td>
+    </tr>
+</tbody></table>`);
 
 
-// //Problem # 11
-// let nums_1 = +prompt("Enter first number: ");
-// let nums_2 = +prompt("Enter second number: ");
-// let operation = prompt("Enter Operation(+, -, *, / or %): ");
-// if (operation === "+"){
-//     alert(`Result: ${nums_1 + nums_2}`);
-// }
-// else if (operation === "-"){
-//     alert(`Result: ${nums_1 - nums_2}`);
-// }
-// else if (operation === "*"){
-//     alert(`Result: ${nums_1 * nums_2}`);
-// }
-// else if (operation === "/"){
-//     alert(`Result: ${nums_1 / nums_2}`);
-// }
-// else if (operation === "%"){
-//     alert(`Result: ${nums_1 % nums_2}`);
-// }
+
+/* 
+
+ASSIGNMENT # 9-10
+
+*/
+
+// Problem # 1
+let city = prompt("Enter a city name: ");
+if (city === "Karachi" || city === "karachi"){
+    alert("Welcome to the city of lights!");
+}
+else{
+    alert("Welcome to " + city);
+}
+
+// Problem # 2
+let gender = prompt("Enter your Gender: ");
+if (gender === "male" || gender === "Male"){
+    alert("Good Morning Sir!");
+}
+else if (gender === "female" || gender === "Female"){
+    alert("Good Morning Maam!");
+}
+
+// Problem # 3
+let trafficSignal = prompt("Enter color of road traffic signal: ");
+if (trafficSignal === "red" || trafficSignal === "Red"){
+    alert("Must Stop");
+}
+else if (trafficSignal === "green" || trafficSignal === "Green"){
+    alert("Move Now");
+}
+
+else if (trafficSignal === "yellow" || trafficSignal === "Yellow"){
+    alert("Ready to Move");
+}
+
+// Problem # 4
+let fuel = +prompt("Enter Current fuel in car (Litres): ");
+if (fuel < 0.25){
+    alert("Please Refill the fuel in your car!");
+}
+
+// Problem # 6
+let marks_1 = +prompt("Enter marks of First Subject: ");
+let marks_2 = +prompt("Enter marks of Second Subject: ");
+let marks_3 = +prompt("Enter marks of Third Subject: ");
+let total_marks_1 = +prompt("Enter Total Marks: ");
+let totals = Math.round(((marks_1 + marks_2 + marks_3) * 100 )/ total_marks_1);
+let grades;
+let remarks;
+if (totals >= 80){
+    grades = "A-One";
+    remarks = "Excellent";
+}
+
+else if (totals >= 70){
+    grades = "A";
+    remarks = "Good";
+}
+
+else if (totals >= 60){
+    grades = "B";
+    remarks = "You need to improve";
+}
+
+else{
+    grades = "Fail";
+    remarks = 'Sorry';
+}
+
+document.write(`<br><h1>Marksheet</h1>Total Marks: ${total_marks_1}<br>Marks Obtained: ${marks_1 + marks_2 + marks_3}<br>Percentage: ${totals}%<br>Grade: ${grades}<br>Remarks: ${remarks}`);
+
+
+// Problem # 7
+let secret = 8;
+while (true){
+    let guess = +prompt("Guess the Secret No: ");
+    if (guess === secret){
+        alert("Bingo! Correct Answer");
+        break;
+    }
+    else if (guess === secret + 1){
+        alert("Close enough to the correct answer!");
+    }
+}
+
+// Problem # 8
+let divisible = +prompt("Enter a number which is divisible by 3: ");
+if (divisible % 3 === 0){
+    alert(`${divisible} is divisible by 3`);
+}
+else{
+    alert(`${divisible} is not divisible by 3`);
+}
+
+// Problem # 9
+let evenOrOdd = +prompt("Enter an Even number or an Odd number: ");
+if (evenOrOdd % 2 === 0){
+    alert(`${evenOrOdd} is an even number!`);
+}
+else{
+    alert(`${evenOrOdd} is an odd number`);
+}
+
+// Problem # 10
+let temp = +prompt("Enter Current Temperature: ");
+if (temp > 40){
+    alert("It is too hot outside.");
+}
+
+else if (temp > 30){
+    alert("The Weather today is Normal.");
+}
+
+else if (temp > 20){
+    alert("Today’s Weather is cool.");
+}
+
+else if (temp > 10){
+    alert("“OMG! Today’s weather is so Cool.");
+}
+
+
+// Problem # 11
+let nums_1 = +prompt("Enter first number: ");
+let nums_2 = +prompt("Enter second number: ");
+let operation = prompt("Enter Operation(+, -, *, / or %): ");
+if (operation === "+"){
+    alert(`Result: ${nums_1 + nums_2}`);
+}
+else if (operation === "-"){
+    alert(`Result: ${nums_1 - nums_2}`);
+}
+else if (operation === "*"){
+    alert(`Result: ${nums_1 * nums_2}`);
+}
+else if (operation === "/"){
+    alert(`Result: ${nums_1 / nums_2}`);
+}
+else if (operation === "%"){
+    alert(`Result: ${nums_1 % nums_2}`);
+}
 
 
 //ASSIGNMENT 12-13
