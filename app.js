@@ -102,9 +102,9 @@ let x, y, z
 // Problem # 2
 let x_1
 // let 1;
-let % alert
-let ^ alert
-let(alert)
+// let %alert
+// let ^alert
+// let(alert)
 let names
 let counter
 // let {[naming]};
@@ -618,7 +618,7 @@ for (var i of colors) {
 }
 
 let startColor = prompt('Which color you want to add to the beginning: ')
-colors.unshift(newColor)
+colors.unshift(startColor)
 document.write('----------------------------------<br>')
 for (var j of colors) {
   document.write(j + '<br>')
@@ -651,9 +651,9 @@ for (var n of colors) {
   document.write(n + '<br>')
 }
 
-let newColor = prompt('Which color you want to add: ')
-let newColorLoc = +prompt(`Also tell the index no (0-${colors.length - 1}): `)
-colors.splice(newColorLoc, 0, newColor)
+startColor = prompt('Which color you want to add: ')
+let startColorLoc = +prompt(`Also tell the index no (0-${colors.length - 1}): `)
+colors.splice(startColorLoc, 0, startColor)
 document.write('----------------------------------<br>')
 for (var o of colors) {
   document.write(o + '<br>')
@@ -671,7 +671,7 @@ for (var p of colors) {
 
 // Problem # 10
 scores = [90, 80, 70, 99, 100]
-scores.sort(() => a - b)
+scores.sort((a, b) => a - b)
 console.log(scores)
 
 // Problem # 11
@@ -817,8 +817,8 @@ for (var i in items) {
 let nums = [24, 53, 78, 91, 120]
 let minimum = nums[0]
 for (var i of nums) {
-  if (min < i) {
-    min = i
+  if (minimum < i) {
+    minimum = i
   }
 }
 
@@ -826,14 +826,14 @@ let maximum = minimum
 alert('Largest No is ' + maximum)
 
 // Problem # 9
-let min = nums[0]
+minimum = nums[0]
 for (var i of nums) {
-  if (min > i) {
-    min = i
+  if (minimum > i) {
+    minimum = i
   }
 }
 
-alert('Smallest No is ' + min)
+alert('Smallest No is ' + minimum)
 
 // Problem # 10
 for (var u = 1; u < 101; u++) {
